@@ -1,5 +1,3 @@
-// Part 1 completed....
-
 package ZULA;
 
 import java.util.*;
@@ -150,11 +148,7 @@ public class Zula{
             if (cabsAtSource == 1) {
                 for (CabPositions cp : cabLocations) {
                     if (cp.location.equals(source)) {
-//                        int cabid = cp.CabId;
-//                        for (Drivers dri : driver) {
-//                            if (dri.tookRest && cabid == dri.driverId) {
                         cab = cabsAtLocation[0];
-//                                        }}
                     }
                 }
             }
@@ -591,8 +585,8 @@ public class Zula{
             switch (authenticCustomerChoice) {
                 case 1 -> {
                     hailCab(custId);
-                    for (Drivers dri : driver) {
-                        System.out.println(dri.driverId + " at rest : " + dri.tookRest);}}
+//                     for (Drivers dri : driver) {
+//                         System.out.println(dri.driverId + " at rest : " + dri.tookRest);}}
                 case 2 -> {
                     printCabParked();
                     customerChoice(custId);}
