@@ -1,4 +1,5 @@
 package ZULA;
+
 public class CabPositions {
     String location;
     int CabId;
