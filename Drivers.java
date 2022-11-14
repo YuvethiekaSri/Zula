@@ -1,5 +1,4 @@
 package ZULA;
-
 public class Drivers {
     int  driverId, driverPass, driverAge;
     String driverName;
