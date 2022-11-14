@@ -15,6 +15,7 @@ public class DriverSummary {
         custId = customerId;
         custFare = fare;
         zulaComm = zulaCommision;
-//        hasRest = isRest;
+
+        //        hasRest = isRest;
     }
 }
