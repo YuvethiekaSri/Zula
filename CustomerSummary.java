@@ -1,5 +1,4 @@
 package ZULA;
-
 public class CustomerSummary {
     int id, cabLocation, cabFare;
     String custName, src, dest;
