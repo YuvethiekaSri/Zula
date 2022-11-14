@@ -1,7 +1,6 @@
 package ZULA;
 
 import java.util.*;
-
 import static java.lang.System.exit;
 
 public class Zula{
