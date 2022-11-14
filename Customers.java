@@ -1,5 +1,4 @@
 package ZULA;
-
 public class Customers {
     int  custId, custPass, custAge;
     String custName;
