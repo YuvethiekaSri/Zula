@@ -13,6 +13,6 @@
 
   <servlet-mapping>
     <servlet-name>ZULA</servlet-name>
-    <url-pattern>*.html</url-pattern>
+    <url-pattern>/Zula</url-pattern>
   </servlet-mapping>
 </web-app> 
