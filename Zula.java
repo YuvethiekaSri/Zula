@@ -3,6 +3,7 @@ package ZULA;
 import java.util.*;
 import static java.lang.System.exit;
 
+@WebServlet("/Zula")
 public class Zula{
     static Scanner input = new Scanner(System.in);
     static List<Customers> customer = new ArrayList<>();
